@@ -1,0 +1,9 @@
+class tiger extends Animal {
+    public tiger(String name) {
+        super(name);
+    }
+
+    public void makeSound() {
+        System.out.println(getName() + " says:oewwwww !");
+    }
+}
