@@ -1,0 +1,16 @@
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+
+        Animal rate = new rate("psss");
+        Animal tiger = new tiger("oewwwww");
+
+        rate.setName("psss");
+        System.out.println("rate's name is: " + rate.getName());
+
+      
+        rate.makeSound(); 
+        tiger.makeSound(); 
+    }
+}
